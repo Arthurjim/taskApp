@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.Header{
+   width: 100%;
+   height: 75px;
+   border-bottom: 5px solid rgb(163, 163, 163); 
+}
+.Header h1{
+   color: #022BFF;
+   display: inline-block;
+   font-size: 35px;
+   font-family: 'Bebas Neue', cursive;
+   margin: 0 25px;
+   line-height: 75px;
+   letter-spacing:3px;
+   text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+}
+.Header span {
+   float: right;
+   margin: 20px 30px;
+}
+.Header span i{
+   font-size: 32px;
+}

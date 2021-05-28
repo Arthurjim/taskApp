@@ -1,0 +1,56 @@
+.select-kind{
+  width: 100%;
+  height: 30px;
+
+}
+li{
+  list-style: none;
+}
+.select-kind div {
+  display: inline-block;
+  height: 100%;
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.select-kind div label{
+  line-height: 30px;
+  font-weight: 800;
+}
+.select-kind div label i{
+  float: right;
+  line-height: 30px;
+  padding-right: 10px;
+
+}
+.select-kind div ul {
+  display: none;
+  position: absolute;
+  top:30px;
+  right: 0;
+  background-color: #ddd;
+  list-style: none;
+
+}
+.select-kind div ul li{
+  width: 150px;
+  height: 30px;
+  border: 1px solid rgb(129, 129, 129);
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  font-size: 0.8em;
+  list-style: none;
+}
+.select-kind div:hover > ul{
+  display: inherit;
+
+  
+}
+.select-kind div ul li:hover{
+  background-color: rgba(119, 119, 119, 0.39);
+}  

@@ -1,0 +1,18 @@
+.content_section{
+   width:35%;
+   height: 100%;
+   padding: 50px 0;
+   text-align: center;
+}
+.content_section button{
+   width: 80%;
+   height: 45px;
+   font-size: 21px;
+   border-radius: 5px;
+   background-color: white;
+   border: 1px solid rgb(167, 166, 166);
+}
+.content_section button:hover{
+   background-color: rgb(194, 194, 194);
+
+}
