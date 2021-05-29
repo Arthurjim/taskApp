@@ -52,14 +52,23 @@ const ListTasks = ({children}) => {
                     ? " min"
                     : " hrs"}
                 </td>
-                {moment(item.date_task).subtract(10, "days").calendar() >
-                moment().subtract(10, "days").calendar() ? (
-                  <td className="taskSuccess">
-                    {moment(item.date_task).subtract(10, "days").calendar()}
+                {
+
+                }
+                {
+                  console.log(  moment().format("MMM Do YY") >moment(item.date_task).format("MMM Do YY"))
+
+
+                }
+                {
+                moment(item.date_task).format("MMM Do YY") <
+                moment().format("MMM Do YY") ? (
+                  <td className="taskFail">
+                    {moment(item.date_task).format('L')}
                   </td>
                 ) : (
-                  <td className="taskFail">
-                    {moment(item.date_task).subtract(10, "days").calendar()}
+                  <td className="taskSuccess">
+                    {moment(item.date_task).format('L')}
                   </td>
                 )}
               </tr>

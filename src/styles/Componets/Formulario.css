@@ -4,13 +4,22 @@
   text-align: center;
 }
 .formulario input{
-  width: 50%;
-  height: 45px;
+  width: 35%;
+  height: 40px;
   margin: auto;
+  border-radius: 5px;
+  border: 2px solid rgb(146, 145, 145);
+  text-align: center;
+
 }
 .formulario input::placeholder{
   text-align: center;
 
+}
+.formulario p{
+  font-size: 20px;
+  margin-top:20px;
+  font-family:monospace;
 }
 input[type="date"]{
   text-align: center;
@@ -27,18 +36,34 @@ input[type="time"]{
   box-shadow:  0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   text-align: center;
-  font-size: 12px;
-  padding: 20px;
+  font-size: 18px;
   position: relative;
   font-weight:600;
   width: 30%;
-  margin: auto;
+  margin: 10px auto;
+  border-bottom:2px solid rgb(99, 99, 99) ;
+  border-top:2px solid rgb(99, 99, 99) ;
 }
 .dropdown ul{
   display: none;
 }
+.dropdown:active{
+  background-color: rgb(199, 199, 199);
 
+}
 .dropdown.open ul{
+  margin-top: 10px;
   display: block;
+}
+.dropdown.open ul li{
 
+  width: 100%;
+  
+  border-radius: 5px;
+  border: 1px solid rgb(92, 92, 92);
+  margin:auto;
+}
+.dropdown.open ul li:hover{
+  border-radius: 5px;
+  background-color: rgb(121, 121, 121);
 }

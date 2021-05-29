@@ -17,6 +17,8 @@ const SelectTasks = () => {
             SELECT <i className="fas fa-chevron-circle-down"></i>
           </label>
           <ul>
+          <li onClick={()=>{handleSection('')}}>ALL</li>
+
             <li onClick={()=>{handleSection('school')}}>SCHOOL</li>
             <li onClick={()=>{handleSection('job')}}>JOB</li>
             <li onClick={()=>{handleSection('friend')}}>FRIENDS</li>
